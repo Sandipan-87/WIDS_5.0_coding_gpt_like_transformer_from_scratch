@@ -20,4 +20,27 @@ A simple introduction to neural networks: [watch video 74 and 75](https://www.yo
 
 Let's keep this a little lite for the 1st week :)
 
+## Week 2 Resources 
+
+Now that you have an intro to how NNs work, let's deep dive into their specific components in more detail:
+
+[watch videos from 76 to 84](https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) (recommended for this wids project)
+
+Additionally, If you want to learn even more beyond this proect timeline:
+Here is [The Longer way (The two courses by Stanford and DeepLearning.ai)](https://www.coursera.org/specializations/machine-learning-introduction)
+
+(If you apply for a financial aid on coursera, you can get free certificates for your resume)
+
+If not, you can watch the free versions here:
+
+[Course 1 on youtube](https://www.youtube.com/watch?v=vStJoetOxJg&list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI)
+
+[Course 2 on youtube](https://www.youtube.com/watch?v=ggWLvh484hs&list=PLyoNSC4BT4eVpykPF0Yx8C1Zs50XtD17L)
+
+If you finish early, you can start exploring the tools required to build the transformer: 
+
+[Introduction to Pytorch](https://www.youtube.com/watch?v=OIenNRt2bjg) (Optional for week 2) 
+
+We'd move onto the attention mechanism and working of the decoder-only transformer by the 3rd week.
+
 
