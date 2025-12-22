@@ -44,3 +44,23 @@ If you finish early, you can start exploring the tools required to build the tra
 We'd move onto the attention mechanism and working of the decoder-only transformer by the 3rd week.
 
 
+## Week 3 Resources
+
+
+[Introduction to PyTorch](https://www.youtube.com/watch?v=OIenNRt2bjg) (Don't stress about syntax too much , Kudos if you already covered this in Week 2!)
+
+**Step 1:** [watch videos 87 and 89](https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
+
+**Step 2:**  [watch video 90](https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
+
+or
+
+If you prefer reading , check out [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+(Don't try to understand everything word by word but at least learn the major concepts and use the video as a backup if you get stuck)
+
+[PyTorch Tensors in 5 Mins](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)
+(Skim this. Just understand that Tensors are matrices that run on the GPU)
+
+[Attention in Transformers - 3Blue1Brown](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+(Optional but watch this for deep understanding through visualization)
