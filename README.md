@@ -63,4 +63,4 @@ If you prefer reading , check out [The Illustrated Transformer](https://jalammar
 (Skim this. Just understand that Tensors are matrices that run on the GPU)
 
 [Attention in Transformers - 3Blue1Brown](https://www.youtube.com/watch?v=eMlx5fFNoYc)
-(Optional but watch this for deep understanding through visualization)
+(Optional but watch this if you want deep understanding through visualization)
