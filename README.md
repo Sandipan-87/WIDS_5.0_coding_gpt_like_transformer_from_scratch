@@ -64,3 +64,32 @@ If you prefer reading , check out [The Illustrated Transformer](https://jalammar
 
 [Attention in Transformers - 3Blue1Brown](https://www.youtube.com/watch?v=eMlx5fFNoYc)
 (Optional but watch this if you want deep understanding through visualization)
+
+# Assignment & Week 4 Resources
+
+Welcome to the mid-term assignment! Before we build a smart Transformer, we are going to build a "Dumb" one: The Bigram Language Model.
+
+## Mid-Term Assignment: The Bigram Model
+
+Build a language model that predicts the next character based only on the current character. It has no memory, so the output will be hilarious gibberish.
+
+1. Watch Andrej Karpathy's (Co-founder of OpenAI) video: [Let's build GPT: from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY).
+2. Code along with him but stop at timestamp **42:13**.
+3. You can use the `tinyshakespeare` dataset from the video or I recommend picking your own text file for fun (song lyrics, chat logs, novels, etc.).
+
+**Submission:**
+Take a screenshot of the gibberish text your model generates. It should look like broken English. This proves your model is working. Upload the code files and the screenshot in the G-form I'll be sharing soon.
+
+## Week 4 Resources
+
+After completing the assignment, we will continue with Week 4. We'll learn the procedure to upgrade our "dumb" Bigram model into a "smart" GPT by implementing **Masked Self-Attention**.
+
+**Step 1:**
+Before coding, you need to understand how the model behaves if we don't mask future words. Watch the [StatQuest: Decoder-Only Transformers](https://www.youtube.com/watch?v=bQ5BoolX9Ag) video. Focus on "Masked Self-Attention" and Query/Key/Value.
+
+**Step 2:**
+Resume the Andrej Karpathy tutorial from where you left off (timestamp 42:13) and watch until the end.
+
+**Note**
+Don't get intimidated by the math in Week 4. It is complex, but seeing your model generate coherent English after training will be worth it. Good Luck :)
+
