@@ -93,3 +93,57 @@ Resume the Andrej Karpathy tutorial from where you left off (timestamp 42:13) an
 **Note**
 Don't get intimidated by the math in Week 4. It is complex, but seeing your model generate coherent English after training will be worth it. Good Luck :)
 
+# WIDS Final Project: GPT Transformer (Decoder only)
+
+## Overview
+This is the final week of the project. In Week 4, you built a Bigram model that predicted characters based on probability. In Week 5, you will implement "Self-Attention" to give the model context and memory.
+
+Your goal is to complete the architecture that powers modern LLMs like ChatGPT.
+
+
+### Step 1: 
+Finish the week 4 resources first for a solid understanding.
+
+### Step 2: 
+You need to upgrade your script to include the following components:
+
+To ensure your code works, your single `gpt.py` file must contain these specific blocks. Check them off as you build them:
+
+- Head (One head of self-attention)
+- MultiHeadAttention (Running multiple heads in parallel)
+- FeedForward (Linear layers with non-linearity)
+- Block (Combining Attention and FeedForward)
+- Positional Embeddings (So the model knows the order of words)
+
+### Step 3: Train and Generate
+- Train the model for at least 3,000 to 5,000 iterations.
+- Aim for a validation loss between 1.5 and 2.0.
+- The output should have correct spelling and basic grammar.
+
+## Submission Requirements
+Upload the following to your repo:
+1. Your final python script (gpt.py).
+2. A screenshot of your sample text generated and final Validation Loss .
+
+## Additional Resources
+
+### Conceptual Understanding
+- The Illustrated Transformer (Jay Alammar) (provided in week 3)
+  Use this if you are confused about how Query, Key, and Value vectors work. Look specifically at the "Decoder-Only" sections.
+
+### Implementation Reference
+- [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html) (Harvard NLP)
+  A line-by-line implementation of the original Transformer paper using PyTorch. Use this if you get stuck on the specific code syntax.
+
+## Debugging Tips
+1. If the code fails, print "x.shape" inside your forward pass to see where the dimensions are mismatching.
+2. If Google Colab runs out of memory (OOM error), try reducing the "batch_size" or "block_size" variables.
+3. Overfitting: If your training loss goes down but validation loss goes up, your model is memorizing the data instead of learning patterns. Reduce the network size or try lowering the learning rate slightly (e.g., from 3e-4 to 1e-4).
+---
+
+Finally, Congratulations on reaching the final week.
+
+Building a Transformer from scratch is difficult. It involves complex math, matrix operations, and debugging tensor dimensions. You now understand the architecture behind ChatGPT, Claude, and Gemini. You are not just calling an API; you are technically building the engine yourself. Even if your model outputs very simple text today, the logic you implemented is the foundation of modern AI.
+
+Be proud of your code. Good luck with the final training run .
+
